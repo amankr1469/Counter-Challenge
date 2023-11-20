@@ -1,0 +1,9 @@
+[package]
+name = "myCounter"
+version = "1.0.0"
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "main"
+subdir = "aptos-move/framework/aptos-framework"
+[addresses]
+counter_addr='c552f796f675c9ebcfdd8f21a4ec01a21c43a6853790bbc6d1a0486fd0652766'
